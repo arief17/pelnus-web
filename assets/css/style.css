@@ -1,0 +1,340 @@
+body {
+	overflow-x: hidden;
+	font-family: 'Montserrat', sans-serif;
+	color: #616971;
+}
+
+/* ==TOP BAR HEADER== */
+.top-bar {
+	background: #7aaec4;
+	height: 2.4rem;
+	padding: .5rem 0;
+}
+
+.top-bar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: .8rem;
+}
+
+.top-bar .contact{
+	font-size: 12px;
+}
+
+.top-bar .contact a{
+	font-size: 12px !important;
+}
+
+.top-bar .contact i{
+	color: #FFD700;
+}
+
+/* ==navigation== */
+.navbar-brand img {
+	height: 4rem;
+}
+
+
+.navbar {
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: .1rem;
+	box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+	z-index: 1;
+}
+
+.navbar .dropdown-menu a{
+	font-size: 11px;
+}
+.nav-item{
+	padding: .5rem ;
+}
+
+.nav-link {
+	color: #5b5555 !important;
+}
+
+.nav-link.active, .nav-link:hover {
+	color: #4981b3 !important;
+}
+
+/* ==Carousel== */
+#carousel {
+	box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+}
+
+.carousel-inner {
+	max-height: 38rem !important;
+}
+
+/* carousel speed / kecepatan carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item-active {
+	transition: transform 1.2s ease;
+}
+
+/* carousel content */
+.carousel-caption {
+	position: absolute;
+	top: 45%;
+	transform: translateY(-50%); 
+}
+
+.bg-custom {
+	background-color: rgba(17, 17, 17, 0.4);
+	color: white;
+	border-radius: 1rem;
+}
+
+.carousel-caption h1{
+	font-size:3.8rem;
+	text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1); ;
+}
+
+.border-primary {
+	border-top: .2rem solid #4981b3 !important;
+}
+
+.carousel-caption h3{
+	font-size:2.2rem;
+	text-shadow: .1rem .1rem .2rem rgb(207, 75, 75); ;
+	text-transform: uppercase;
+}
+
+.btn-lg {
+	border-radius: 0;
+	text-transform: uppercase;
+	font-size: 1rem;
+	border-width: medium;
+}
+
+.btn-danger {
+	background-color: #AC2615;
+	border: .05rem solid #AC2615;
+}
+
+.btn-primary {
+	background-color: #4981b3;
+	border: .05rem solid #4981b3;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+	background-color: #68a0d2 !important;
+	border: .05rem solid #68a0d2 !important;
+}
+
+.fixed {
+	background-image: url('../img/bg-papan.jpeg');
+	position: fixed;
+}
+
+.fixed-background {
+	padding: 5rem 0;
+}
+
+.footer {
+	background-color: #4981b3;
+	padding: 0.9rem;
+	color: #fff;
+}
+
+.footer .contact-kami {
+	text-transform: uppercase;
+}
+
+.footer .navigasi .my-1 {
+	text-transform: uppercase;
+}
+
+.footer .navigasi ul li {
+	list-style: none;
+}
+.footer .navigasi ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.judul-logo h3{
+	font-size: 17px;
+	margin-top: 7px;
+}
+
+.judul-logo::after{
+	content: '';
+	background-color: #4981b3;
+	border: rgba(0, 0, 0, .1);
+}
+
+.card img {
+	height: 230px;
+}
+.pendidik .img-area{
+	width: 180px;
+	height: 180px;
+	display: block;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+
+.pendidik .img-text {
+	text-align: center;
+}
+
+.ekstrakurikuler{
+	width: 1170px;
+	margin: 0 auto;
+	background-color: #4981b3;
+}
+
+.section-padding{
+	padding: 60px 0;
+	margin: 5% auto 0;
+}
+
+.ekstrakurikuler .section-padding .img-area{
+	width: 180px;
+	height: 180px;
+	display: block;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.ekstrakurikuler .section-padding .img-area img{
+	width: 100%;
+	height: 100%;
+}
+
+.ekstrakurikuler .section-padding{
+	background: #fff;
+	padding: 10%;
+	text-align: center;
+}
+.berita a{
+	text-decoration: none;
+	color: black;
+}
+
+.berita .isi-berita:hover{
+	color: blue;
+}
+
+
+.counter-dapodik h1 {
+	font-size: 60px;
+}
+
+
+.list-group-flush li a{
+	text-decoration: none;
+	color: black;
+}
+
+.list-group-flush li a:hover{
+	color: cadetblue;
+}
+
+.card .img-area img{
+	width: 100%;
+	height: 400px;
+}
+
+
+.card-body .isi-berita{
+	text-align: justify;
+}
+
+
+
+
+
+
+
+/* Media GUIDE */
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+	.judul-logo h3{
+		font-size: 13px !important;
+		margin-left: -20px;
+	}
+	.card .img-area img{
+		width: 100%;
+		height: 200px;
+	}
+
+	.card-body .judul-berita{
+		font-size: 18px;
+	}
+	
+	.footer h5,h4,p{
+		font-size: 14px;
+	}
+
+	.lainnya-berita a{
+		font-size: 12px !important;
+	}
+
+	.counter-dapodik h3{
+		font-size: 25px;
+	}
+}
+
+
+
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+ }
+
+.row, .container-fluid {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+.fixed-background {
+	position: relative;
+	width: 100%;
+	z-index: 1000 !important;
+}
+
+.fixed-wrap {
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -999 !important ;
+}
+
+.fixed {
+	z-index: -999 !important;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+	will-change: transform;
+}
+
+.top-bar .contact i {
+	padding: .3rem;
+
+}
+
+.top-bar .contact a {
+	font-size: 1.0rem;
+}
+
+.cp-youtube{
+	width: 100% !important;
+}
